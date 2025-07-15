@@ -1,0 +1,127 @@
+{
+  "experiment_info": {
+    "timestamp": "2025-07-13 21:34:29",
+    "num_env_steps": 3000,
+    "eval_interval": 1000,
+    "quick_mode": true
+  },
+  "baseline_results": {
+    "data_source": "100_percent_real_training",
+    "algorithm_type": "baseline",
+    "training_time": 296.16732454299927,
+    "num_env_steps": 3000,
+    "eval_rewards": [
+      198.74999856315418,
+      155.29999885487436,
+      182.29999853786822
+    ],
+    "task_completion_rates": [
+      0.8999999999999999,
+      0.3,
+      0.6728423456515984
+    ],
+    "avg_task_delays": [
+      65.0,
+      155.0,
+      99.07364815226025
+    ],
+    "cpu_utilizations": [
+      0.76,
+      0.52,
+      0.6691369382606394
+    ],
+    "bandwidth_utilizations": [
+      0.75,
+      0.44999999999999996,
+      0.6364211728257991
+    ],
+    "network_robustness_scores": [
+      0.86,
+      0.62,
+      0.7691369382606394
+    ],
+    "contrastive_losses": null,
+    "final_performance": 178.7833319852989,
+    "improvement_metrics": {},
+    "data_integrity": "verified_real",
+    "simulation_data_used": false,
+    "training_rewards": [
+      -101.15000051657157,
+      -71.15000060492335,
+      -63.100000657756276,
+      77.6999988163593,
+      -56.400000950992556,
+      121.0999989403268,
+      34.54999900114251,
+      128.79999855728474,
+      199.94999832400737,
+      20.59999888129794,
+      -20.70000085029939,
+      103.94999887784535,
+      198.39999858358826,
+      157.79999867785847,
+      173.1999985579576,
+      219.39999840800675,
+      166.04999842749677
+    ]
+  },
+  "innovation_results": {
+    "data_source": "100_percent_real_training",
+    "algorithm_type": "innovation",
+    "training_time": 840.1974217891693,
+    "num_env_steps": 3000,
+    "eval_rewards": [
+      -96.65000051814708,
+      -34.250000648225225,
+      -56.10000062527969
+    ],
+    "task_completion_rates": [
+      0.3,
+      0.8999999999999999,
+      0.6899038459365129
+    ],
+    "avg_task_delays": [
+      155.0,
+      65.0,
+      96.51442310952307
+    ],
+    "cpu_utilizations": [
+      0.52,
+      0.76,
+      0.6759615383746052
+    ],
+    "bandwidth_utilizations": [
+      0.44999999999999996,
+      0.75,
+      0.6449519229682564
+    ],
+    "network_robustness_scores": [
+      0.62,
+      0.86,
+      0.7759615383746052
+    ],
+    "contrastive_losses": [
+      1.0,
+      0.3785041281187439,
+      0.23982965469429118
+    ],
+    "final_performance": -62.33333393055066,
+    "improvement_metrics": {},
+    "data_integrity": "real_training_rewards_converted_to_eval",
+    "simulation_data_used": false,
+    "training_rewards": [
+      -96.65000051814708,
+      -34.250000648225225,
+      -56.10000062527969
+    ],
+    "reward_debug_info": {
+      "original_count": 3,
+      "original_mean": -62.33333393055066,
+      "original_std": 25.853185864447628,
+      "original_min": -96.65000051814708,
+      "original_max": -34.250000648225225,
+      "anomalies_detected": [],
+      "filtering_applied": false
+    }
+  }
+}
